@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Raleway:ital,wght@0,300;1,100&family=Rubik+Iso&family=Sono:wght@500;600&display=swap');
+
+body{
+  color: rgb(152, 84, 215);
+  background-color: rgb(250, 250, 237);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  line-height: 1.6;
+  letter-spacing: 6px;
+  text-align: center;
+}
+h1:hover{
+  color: coral;
+}
+/* image{
+  align-items: center;
+} */
+.img-circle{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+h2{
+  color: #C3E991;
+}
+p{
+  color: rgb(235, 139, 240);
+}
+a {
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}
+.text-align{
+  text-align: center;
+}
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+} */
+/* .container{
+  width: 500px;
+  margin: 0 auto;
+} */
+.card-intro{
+  background-color: rgb(255, 255, 212);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 30px 40px;
+}
+.card-social{
+  background-color: rgb(255, 255, 212);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 30px 40px;
+}
+.container{
+  margin: auto;
+  width: 800px;
+}
+.social{
+  margin: auto;
+  width: 800px;
+}
+@media (max-width: 960px) {
+  .container{
+    width: 700px;
+  }
+  .social{
+    width: 700px;
+    margin: auto;
+  }
+}
+
